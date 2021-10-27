@@ -154,6 +154,7 @@ L:SetGeneralLocalization({
 })
 
 L:SetOptionLocalization({
+    RemoveHealthBuffsOnCombatStart = "Remove HP buffs at start of the encounter",
     WarningHateful = "公布仇恨打击的目标到团队频道\n(需要团长或助理权限)"
 })
 
@@ -338,7 +339,8 @@ L:SetOptionLocalization({
     TimerLanding = "为降落显示计时条",
     TimerIceBlast = "为冰霜吐息显示计时条",
     WarningDeepBreath = "为冰霜吐息显示特别警报",
-    WarningIceblock = "当你中了冰箱时大喊"
+    WarningIceblock = "当你中了冰箱时大喊",
+    SpecWarnSapphLow = "Special warning for 10% execute phase (cancel air phase)"
 })
 
 L:SetMiscLocalization({
@@ -350,7 +352,8 @@ L:SetWarningLocalization({
     WarningAirPhaseSoon = "10秒后 空中阶段",
     WarningAirPhaseNow = "空中阶段",
     WarningLanded = "萨菲隆降落了",
-    WarningDeepBreath = "冰霜吐息"
+    WarningDeepBreath = "冰霜吐息",
+    SpecWarnSapphLow = "Sapphiron can't fly!"
 })
 
 L:SetTimerLocalization({
@@ -370,20 +373,32 @@ L:SetGeneralLocalization({
 
 L:SetOptionLocalization({
     TimerPhase2 = "为第二阶段显示计时条",
+    MCImminent = "MC Imminent! (20s)",
     specwarnP2Soon = "为克尔苏加德攻击前10秒显示特别警报",
+    fissure = "Show special warning for Shadow Fissure",
+    manaNear = "Show special warning when Detonate Mana is nearby",
     warnAddsSoon = "为寒冰皇冠卫士显示提前警报",
+    BlastAlarm = "Play custom siren sound when Frost Blast is being cast",
+    EqUneqWeaponsKT = "Automatically unequip and equip weapons before and after Mind Control. Create equip. set named 'pve' for re-equipping",
+    EqUneqWeaponsKT2 = "Automatically unequip and equip weapons when MC is cast on YOU",
     ShowRange = "当第二阶段开始时显示距离监视框"
 })
 
 L:SetMiscLocalization({
-    Yell = "仆从们，侍卫们，隶属于黑暗与寒冷的战士们！听从克尔苏加德的召唤！"
+    Yell = "仆从们，侍卫们，隶属于黑暗与寒冷的战士们！听从克尔苏加德的召唤！",
+    YellMC1 = "Your soul is bound to me, now!",
+    YellMC2 = "There will be no escape!",
+    setMissing = "ATTENTION! DBM automatic weapon unequipping/equipping will not work until you create a equipment set named pve"
 })
 
 L:SetWarningLocalization({
     specwarnP2Soon = "10秒后克尔苏加德开始攻击",
+    fissure = "Shadow Fissure",
+    manaNear = "Detonate Mana nearby",
     warnAddsSoon = "寒冰皇冠卫士即将出现"
 })
 
 L:SetTimerLocalization({
-    TimerPhase2 = "第二阶段"
+    TimerPhase2 = "第二阶段",
+    MCImminent = "MC Imminent! (20s)"
 })
