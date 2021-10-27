@@ -1,6 +1,7 @@
 ﻿-- author: callmejames @《凤凰之翼》 一区藏宝海湾
 -- commit by: yaroot <yaroot AT gmail.com>
 
+
 if GetLocale() ~= "zhCN" then return end
 
 local L
