@@ -104,7 +104,8 @@ L:SetWarningLocalization({
 
 L:SetOptionLocalization({
 	WarningSplitSoon	= "预警：分裂",
-	RangeFrame			= "范围监测器：12码"
+	RangeFrame			= "范围监测器：12码",
+	SetIconOnBrand		= DBM_CORE_L.AUTO_ICONS_OPTION_TEXT:format(74505)
 })
 
 -------------------------
@@ -117,7 +118,8 @@ L:SetGeneralLocalization({
 })
 
 L:SetOptionLocalization({
-	RangeFrame			= "范围监测器：10码"
+	RangeFrame			= "范围监测器：10码",
+	beaconIcon			= DBM_CORE_L.AUTO_ICONS_OPTION_TEXT:format(74453)
 })
 
 --------------------------
@@ -143,7 +145,8 @@ L:SetOptionLocalization({
 	WarnAdds		= "通报：新的小怪",
 	TimerAdds		= "计时条：新的小怪",
 	CancelBuff		= "删除 $spell:10278 和 $spell:642 如果用于删除 $spell:74367",
-	AddsArrive		= "计时条：小怪到来"
+	AddsArrive		= "计时条：小怪到来",
+	warnCleaveArmor	= DBM_CORE_L.AUTO_ANNOUNCE_OPTIONS.spell:format(74367)
 })
 
 L:SetMiscLocalization({
