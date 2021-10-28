@@ -46,9 +46,9 @@ L:SetOptionLocalization({
 })
 
 L:SetMiscLocalization({
-	HorsemanHead		= "Get over here",
-	HorsemanSoldiers	= "Soldiers arise",
-	SayCombatEnd		= "This end have I reached before"
+	HorsemanHead		= "过来这里，你这白痴!",
+	HorsemanSoldiers	= "士兵们起立，挺身奋战!让这个位死去的骑士得到最后的胜利!",
+	SayCombatEnd		= "我也曾面对过这样的末路。还有什么新的冒险在等着呢?"
 })
 
 -----------------------

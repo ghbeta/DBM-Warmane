@@ -120,7 +120,7 @@ L:SetOptionLocalization{
 }
 
 L:SetMiscLocalization{
-    SporeSet = "气体孢子{rt%d}: %s",
+    SporeSet = "毒气孢子{rt%d}: %s",
     AchievementFailed = ">> 成就失败: %s中了%d层孢子 <<"
 }
 
