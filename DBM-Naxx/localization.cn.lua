@@ -386,8 +386,8 @@ L:SetOptionLocalization({
 
 L:SetMiscLocalization({
     Yell = "仆从们，侍卫们，隶属于黑暗与寒冷的战士们！听从克尔苏加德的召唤！",
-    YellMC1 = "Your soul is bound to me, now!",
-    YellMC2 = "There will be no escape!",
+    YellMC1 = "你的灵魂现在属于我了！",
+    YellMC2 = "没有人能逃得掉！",
     setMissing = "ATTENTION! DBM automatic weapon unequipping/equipping will not work until you create a equipment set named pve"
 })
 
